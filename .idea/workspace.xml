@@ -45,7 +45,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
               <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding />
+              <folding>
+                <marker date="1494768084328" expanded="true" signature="104:933" ph="..." />
+                <marker date="1494768084328" expanded="true" signature="570:922" ph="..." />
+                <marker date="1494768084328" expanded="true" signature="777:905" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +59,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding />
+              <folding>
+                <marker date="1494768115976" expanded="true" signature="170:927" ph="..." />
+                <marker date="1494768115976" expanded="true" signature="192:900" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,16 +70,73 @@
       <file leaf-file-name="HibernateStandAlone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/HibernateStandAlone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="378">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DATABASE/f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89</OriginalElement>
+              <nodes>
+                <node x="199.0" y="24.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author</node>
+                <node x="244.0" y="314.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.subject</node>
+                <node x="0.0" y="580.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.book_autor</node>
+                <node x="489.0" y="407.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.child</node>
+                <node x="240.0" y="580.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.book_author</node>
+                <node x="0.0" y="0.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.book</node>
+                <node x="130.5" y="456.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student_subject</node>
+                <node x="0.0" y="302.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student</node>
+                <node x="87.5" y="178.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author_book</node>
+                <node x="492.5" y="302.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.parent</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author_book" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.book">
+                  <point x="-45.75" y="-39.5" />
+                  <point x="133.25" y="153.0" />
+                  <point x="89.5" y="153.0" />
+                  <point x="0.0" y="64.0" />
+                </edge>
+                <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student_subject" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.subject">
+                  <point x="48.75" y="-39.5" />
+                  <point x="276.75" y="431.0" />
+                  <point x="344.0" y="431.0" />
+                  <point x="0.0" y="40.0" />
+                </edge>
+                <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.child" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.parent">
+                  <point x="0.0" y="-40.0" />
+                  <point x="0.0" y="27.5" />
+                </edge>
+                <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student_subject" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student">
+                  <point x="-48.75" y="-39.5" />
+                  <point x="179.25" y="431.0" />
+                  <point x="112.0" y="431.0" />
+                  <point x="0.0" y="52.0" />
+                </edge>
+                <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author_book" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author">
+                  <point x="45.75" y="-39.5" />
+                  <point x="224.75" y="153.0" />
+                  <point x="268.5" y="153.0" />
+                  <point x="0.0" y="40.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.801178203240059" x="143.28308823529414" y="289.55882352941177" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -87,16 +151,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#125#157#0" expanded="false" />
+                <element signature="e#546#547#0" expanded="false" />
+                <element signature="e#574#575#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/model/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+            <state relative-caret-position="396">
+              <caret line="33" column="66" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -105,7 +174,7 @@
       <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/model/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="108">
               <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
               <folding />
             </state>
@@ -219,102 +288,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManyToManyBiDirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate_bidirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManyToManyBiDirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate_bidirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManyToManyBiDirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate_bidirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ManyToManyBiDirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate_bidirectional" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -323,7 +296,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StudioProjektowe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -820,12 +793,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494767957588</updated>
-      <workItem from="1494767959730" duration="1598000" />
+      <workItem from="1494767959730" duration="2034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1598000" />
+    <option name="totallyTimeSpent" value="2034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="993" extended-state="6" />
@@ -842,11 +815,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2664437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -886,7 +859,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
+          <folding>
+            <marker date="1494768084328" expanded="true" signature="104:933" ph="..." />
+            <marker date="1494768084328" expanded="true" signature="570:922" ph="..." />
+            <marker date="1494768084328" expanded="true" signature="777:905" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -894,23 +871,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/model/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding />
+          <folding>
+            <marker date="1494768115976" expanded="true" signature="170:927" ph="..." />
+            <marker date="1494768115976" expanded="true" signature="192:900" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -918,16 +882,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/HibernateStandAlone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#125#157#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
+            <element signature="e#574#575#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -936,6 +895,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/HibernateStandAlone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89</OriginalElement>
+          <nodes>
+            <node x="199.0" y="24.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author</node>
+            <node x="244.0" y="314.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.subject</node>
+            <node x="0.0" y="580.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.book_autor</node>
+            <node x="489.0" y="407.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.child</node>
+            <node x="240.0" y="580.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.book_author</node>
+            <node x="0.0" y="0.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.book</node>
+            <node x="130.5" y="456.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student_subject</node>
+            <node x="0.0" y="302.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student</node>
+            <node x="87.5" y="178.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author_book</node>
+            <node x="492.5" y="302.0">f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.parent</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author_book" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.book">
+              <point x="-45.75" y="-39.5" />
+              <point x="133.25" y="153.0" />
+              <point x="89.5" y="153.0" />
+              <point x="0.0" y="64.0" />
+            </edge>
+            <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student_subject" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.subject">
+              <point x="48.75" y="-39.5" />
+              <point x="276.75" y="431.0" />
+              <point x="344.0" y="431.0" />
+              <point x="0.0" y="40.0" />
+            </edge>
+            <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.child" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.parent">
+              <point x="0.0" y="-40.0" />
+              <point x="0.0" y="27.5" />
+            </edge>
+            <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student_subject" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.student">
+              <point x="-48.75" y="-39.5" />
+              <point x="179.25" y="431.0" />
+              <point x="112.0" y="431.0" />
+              <point x="0.0" y="52.0" />
+            </edge>
+            <edge source="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author_book" target="f9cff2b2-2dc1-4412-a8e4-ee70bb3f4d89.TABLE:hibernate_test.public.author">
+              <point x="45.75" y="-39.5" />
+              <point x="224.75" y="153.0" />
+              <point x="268.5" y="153.0" />
+              <point x="0.0" y="40.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.801178203240059" x="143.28308823529414" y="289.55882352941177" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/model/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/websystique/hibernate/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="66" selection-start-line="30" selection-start-column="4" selection-end-line="33" selection-end-column="66" />
           <folding />
         </state>
       </provider>
